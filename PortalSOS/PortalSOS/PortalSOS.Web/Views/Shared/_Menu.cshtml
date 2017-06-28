@@ -1,0 +1,63 @@
+﻿@using PortalSOS.Web.Helpers
+
+<div class="container">
+    <div class="navbar-header">
+        <a href="@Url.Action("index", "home")" class="navbar-brand">Portal SOS</a>
+        <button class="navbar-toggle" type="button" data-toggle="collapse" data-target="#navbar-main">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+    </div>
+    <div class="navbar-collapse collapse" id="navbar-main">
+        <ul class="nav navbar-nav">
+            @{
+                //if (PortalSOS.Web.Models.Loja_Models.IsLogado())
+                //{
+                //    if (PortalSOS.Web.Models.Perfil_Models)
+                //    {
+
+                //    }
+
+                //}
+                if (CustomHelper.IsLogado)
+                {
+                    @Html.Partial("_Admin")
+
+                    @*if (CustomHelper.UsuarioLogado.IdPerfil.Equals("1"))//.Contains("administrador"))
+                        {
+                            @Html.Partial("_Admin")
+                        }
+                        else if (CustomHelper.UsuarioLogado.IdPerfil == 0)
+                        {
+                            @Html.Partial("_Admin")
+                        }
+                        else if (CustomHelper.UsuarioLogado.IdPerfil == 2)
+                        {
+                            @Html.Partial("_Client")
+                        }
+                        else if (CustomHelper.UsuarioLogado.IdPerfil == 3)
+                        {
+                            @Html.Partial("_User")
+                        }
+
+                        else if (CustomHelper.UsuarioLogado.IdPerfil == 4)
+                        {
+                            @Html.Partial("_OpNivel1")
+                        }*@
+
+                }
+            }
+
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+                <a href="@Url.Action("informacoes", "home")">
+                    @(CustomHelper.IsLogado ? CustomHelper.UsuarioLogado.RazaoSocial + "                                   " +
+                    CustomHelper.UsuarioLogado.IdCliente : string.Empty)
+            </a>
+        </li>
+        <li><a href="@Url.Action("logoff", "login")">LogOff</a></li>
+    </ul>
+</div>
+</div>

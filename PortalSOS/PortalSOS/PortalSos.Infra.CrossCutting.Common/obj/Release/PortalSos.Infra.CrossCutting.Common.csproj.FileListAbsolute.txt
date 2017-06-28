@@ -1,0 +1,9 @@
+E:\workspace\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Release\PortalSos.Infra.CrossCutting.Common.dll
+E:\workspace\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Release\PortalSos.Infra.CrossCutting.Common.pdb
+E:\workspace\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Release\Correios.Net.dll
+E:\workspace\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Release\Newtonsoft.Json.dll
+E:\workspace\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Release\Correios.Net.pdb
+E:\workspace\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Release\Newtonsoft.Json.xml
+E:\workspace\PortalSOS\PortalSos.Infra.CrossCutting.Common\obj\Release\PortalSos.Infra.CrossCutting.Common.csprojResolveAssemblyReference.cache
+E:\workspace\PortalSOS\PortalSos.Infra.CrossCutting.Common\obj\Release\PortalSos.Infra.CrossCutting.Common.dll
+E:\workspace\PortalSOS\PortalSos.Infra.CrossCutting.Common\obj\Release\PortalSos.Infra.CrossCutting.Common.pdb

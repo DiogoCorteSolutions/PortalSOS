@@ -1,0 +1,399 @@
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.pdb
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\EntityFramework.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.pdb
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.pdb
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\EntityFramework.xml
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.xml
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.xml
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.xml
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.xml
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.xml
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.pdb
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.pdb
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.csprojResolveAssemblyReference.cache
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll.config
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\EntityFramework.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.Http.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\EntityFramework.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.Http.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.csprojResolveAssemblyReference.cache
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll.config
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\EntityFramework.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.Http.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\EntityFramework.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.Http.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.csprojResolveAssemblyReference.cache
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll.config
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\EntityFramework.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\EntityFramework.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.csprojResolveAssemblyReference.cache
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.pdb
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll.config
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.pdb
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\CheckBoxList.Mvc.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\MvcCheckBoxList.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.pdb
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.pdb
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.pdb
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.csprojResolveAssemblyReference.cache
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.pdb
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll.config
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.pdb
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\CheckBoxList.Mvc.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\EntityFramework.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\MvcCheckBoxList.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.pdb
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\EntityFramework.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.pdb
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.pdb
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.csprojResolveAssemblyReference.cache
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.pdb
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll.config
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.pdb
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\CheckBoxList.Mvc.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\EntityFramework.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\MvcCheckBoxList.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.pdb
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\EntityFramework.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.pdb
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.pdb
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.csprojResolveAssemblyReference.cache
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.pdb
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll.config
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.pdb
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\CheckBoxList.Mvc.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\MvcCheckBoxList.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.pdb
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.pdb
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.pdb
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.csprojResolveAssemblyReference.cache
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.pdb
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll.config
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.pdb
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\CheckBoxList.Mvc.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\MvcCheckBoxList.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.pdb
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.pdb
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.pdb
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.pdb
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.csprojResolveAssemblyReference.cache
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.pdb
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll.config
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSOS.Web.pdb
+E:\workspace\PortalSOS\PortalSOS.Web\bin\CheckBoxList.Mvc.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\EntityFramework.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\Microsoft.Web.Infrastructure.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\MvcCheckBoxList.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.Http.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSOS.Application.pdb
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSOS.Dommain.pdb
+E:\workspace\PortalSOS\PortalSOS.Web\bin\EntityFramework.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\EntityFramework.SqlServer.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\Newtonsoft.Json.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Net.Http.Formatting.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.Helpers.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.Http.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.Http.WebHost.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.Mvc.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.Razor.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Deployment.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\System.Web.WebPages.Razor.xml
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSOS.Repositories.pdb
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSOS.Infra.pdb
+E:\workspace\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.csprojResolveAssemblyReference.cache
+E:\workspace\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.dll
+E:\workspace\PortalSOS\PortalSOS.Web\obj\Release\PortalSOS.Web.pdb
+E:\workspace\PortalSOS\PortalSOS.Web\bin\Correios.Net.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSos.Infra.CrossCutting.Common.dll
+E:\workspace\PortalSOS\PortalSOS.Web\bin\PortalSos.Infra.CrossCutting.Common.pdb
+E:\workspace\PortalSOS\PortalSOS.Web\bin\Correios.Net.pdb

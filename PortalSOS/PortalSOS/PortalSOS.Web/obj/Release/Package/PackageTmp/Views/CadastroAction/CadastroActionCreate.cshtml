@@ -1,0 +1,91 @@
+﻿@model PortalSOS.Web.Models.Configuracao_Models
+@{
+    ViewBag.Title = "Cadastro de  página de visualização";
+
+    <style>
+        #example_length {
+            display: none !important;
+        }
+
+        .dataTables_filter {
+            display: none !important;
+        }
+
+        .erro-alert-nome {
+            display: none;
+        }
+
+        .erro-alert {
+            display: block;
+        }
+
+        .dataTables_length {
+            display: none;
+        }
+    </style>
+}
+
+<h2>@ViewBag.Title</h2>
+
+<hr />
+
+@using (Html.BeginForm("CadastroActionCreate", "CadastroAction", FormMethod.Post, new { @class = "form-horizontal", id = "formCadastro", name = "formCadastro" }))
+{
+    if (TempData["msgerror"] != null)
+    {
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgerror"]
+        </div>
+    }
+    else if (TempData["msgsucesso"] != null)
+    {
+        <div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgsucesso"]
+        </div>
+    }
+    else if (TempData["msgalerta"] != null)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgalerta"]
+        </div>
+    }
+    else if (!ViewContext.ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @Html.ValidationSummary()
+        </div>
+    }
+
+    <div class="col-md-6">
+        <div class="form-group">
+            <label>Endereços da Pagina *</label>
+            @Html.DropDownListFor(m => m.IdController, Model.DdlConfiguracaoListaController, new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="form-group">
+            <label>Nome da Pagina *</label>
+            @Html.TextBoxFor(x => x.ControllerAction, new { @class = "form-control" })
+        </div>
+    </div>
+        <div id="alerta-div" style="display: none;"></div>
+
+        <hr />
+
+        <div class="col-md-12">
+            <div class="form-group m-t-10">
+                <button id="btn-all-valid" name="btn-all-valid" type="submit" class="btn btn-success btn-custom waves-effect w-md m-b-5"><i class="fa fa-save"></i>&ensp;Salvar</button>
+                <a id="btn-all" name="btn-all" href="@Url.Action("CadastroActionLista", "CadastroAction")" class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+            </div>
+        </div>
+
+}
+
+
+

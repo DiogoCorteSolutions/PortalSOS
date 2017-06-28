@@ -1,0 +1,41 @@
+﻿@model PortalSOS.Web.Models.Perfil_Models
+
+@{
+    ViewBag.Title = "Visualizar Segmento";
+}
+<h2>@ViewBag.Title</h2>
+
+
+@using (Html.BeginForm("details", "segmento", FormMethod.Get, new { @class = "form-horizontal" }))
+{
+    <fieldset>
+        <legend>Visualizar</legend>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Segmento </label>
+                @Html.TextBoxFor(x => x.Perfil, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Descrição</label>
+                @Html.TextBoxFor(x => x.DescricaoTipo, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Data Cadastro*</label>
+                @Html.TextBoxFor(x => x.DataCadastro, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+        <hr>
+        <div class="col-md-12">
+            <div class="form-group m-t-10">
+                <a id="btn-all" name="btn-all" href="@Url.Action("SegmentoLista", "segmento")" cl class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+            </div>
+        </div>
+    </fieldset>
+}

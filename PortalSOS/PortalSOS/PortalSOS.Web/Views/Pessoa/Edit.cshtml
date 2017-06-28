@@ -1,0 +1,317 @@
+﻿@model PortalSOS.Web.Models.Pessoa_Models
+@{
+    ViewBag.Title = "Editar Usuario";
+
+    <style>
+        #example_length {
+            display: none !important;
+        }
+
+        .dataTables_filter {
+            display: none !important;
+        }
+
+        .erro-alert-nome {
+            display: none;
+        }
+
+        .erro-alert {
+            display: block;
+        }
+
+        .dataTables_length {
+            display: none;
+        }
+    </style>
+}
+
+<h2>@ViewBag.Title</h2>
+
+<blockquote>
+    <p>@ViewBag.Title</p>
+    <small>Bem <cite title="Source Title">Vindo!!!</cite></small>
+</blockquote>
+<hr />
+@using (Html.BeginForm("edit", "pessoa", FormMethod.Post, new { @class = "form-horizontal", id = "formEdit", name = "formEdit" }))
+{
+
+    <div class="form-horizontal">
+        @if (TempData["msgerror"] != null)
+        {
+            <div class="alert alert-dismissible alert-danger">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @TempData["msgerror"]
+            </div>
+        }
+        else if (TempData["msgsucesso"] != null)
+        {
+            <div class="alert alert-dismissible alert-success">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @TempData["msgsucesso"]
+            </div>
+        }
+        else if (TempData["msgalerta"] != null)
+        {
+            <div class="alert alert-dismissible alert-warning">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @TempData["msgalerta"]
+            </div>
+        }
+        else if (!ViewContext.ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-dismissible alert-warning">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @Html.ValidationSummary()
+            </div>
+        }
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>IdPessoa *</label>
+                @Html.TextBoxFor(x => x.IdPessoa, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>IdPerfil *</label>
+                @Html.TextBoxFor(x => x.IdPerfil, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>IdLoja *</label>
+                @Html.TextBoxFor(x => x.IdLoja, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Pessoa *</label>
+                @Html.TextBoxFor(x => x.Pessoa, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Razao *</label>
+                @Html.TextBoxFor(x => x.Razao, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>InscMunicipal *</label>
+                @Html.TextBoxFor(x => x.InscMunicipal, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Cnpj *</label>
+                @Html.TextBoxFor(x => x.Cnpj, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Estadual *</label>
+                @Html.TextBoxFor(x => x.Estadual, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Endereco *</label>
+                @Html.TextBoxFor(x => x.Endereco, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>N *</label>
+                @Html.TextBoxFor(x => x.N, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Compl *</label>
+                @Html.TextBoxFor(x => x.Compl, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Bairro *</label>
+                @Html.TextBoxFor(x => x.Bairro, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>CodMunicipio *</label>
+                @Html.TextBoxFor(x => x.CodMunicipio, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Municipio *</label>
+                @Html.TextBoxFor(x => x.Municipio, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Cnae *</label>
+                @Html.TextBoxFor(x => x.Cnae, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Email *</label>
+                @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Cep *</label>
+                @Html.TextBoxFor(x => x.Cep, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Uf *</label>
+                @Html.TextBoxFor(x => x.Uf, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Telefone *</label>
+                @Html.TextBoxFor(x => x.Telefone, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>TipodeTel *</label>
+                @Html.TextBoxFor(x => x.TipodeTel, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>TipoEnd *</label>
+                @Html.TextBoxFor(x => x.TipoEnd, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Operadora *</label>
+                @Html.TextBoxFor(x => x.Operadora, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Contato *</label>
+                @Html.TextBoxFor(x => x.Contato, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>CodVenda *</label>
+                @Html.TextBoxFor(x => x.CodVenda, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Licenca *</label>
+                @Html.TextBoxFor(x => x.Licenca, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Ativacao *</label>
+                @Html.TextBoxFor(x => x.Ativacao, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Total *</label>
+                @Html.TextBoxFor(x => x.Total, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Obs *</label>
+                @Html.TextBoxFor(x => x.Obs, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>LimiteCred *</label>
+                @Html.TextBoxFor(x => x.LimiteCred, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Emitente *</label>
+                @Html.TextBoxFor(x => x.Emitente, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Serie *</label>
+                @Html.TextBoxFor(x => x.Serie, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Classificacao *</label>
+                @Html.TextBoxFor(x => x.Classificacao, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>CPF *</label>
+                @Html.TextBoxFor(x => x.CPF, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Tipo *</label>
+                @Html.TextBoxFor(x => x.Tipo, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Tipo *</label>
+                @Html.TextBoxFor(x => x.Tipo, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Representante *</label>
+                @Html.TextBoxFor(x => x.Representante, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Ultilizado *</label>
+                @Html.TextBoxFor(x => x.Ultilizado, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Senha *</label>
+                @Html.TextBoxFor(x => x.Senha, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Status *</label>
+                @Html.EditorFor(model => model.Status, new { @required = "required" })&ensp;
+            </div>
+        </div>
+        <div id="alerta-div" style="display: none;"></div>
+
+        <hr />
+
+        <div class="col-md-12">
+            <div class="form-group m-t-10">
+                <button id="btn-all-valid" name="btn-all-valid" type="submit" class="btn btn-success btn-custom waves-effect w-md m-b-5"><i class="fa fa-save"></i>&ensp;Salvar</button>
+                <a id="btn-all" name="btn-all" href="@Url.Action("index", "pessoa")" class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+            </div>
+        </div>
+    </div>
+
+
+}

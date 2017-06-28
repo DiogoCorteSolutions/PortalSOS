@@ -1,0 +1,144 @@
+﻿@model PortalSOS.Web.Models.Operacao_Models
+@{
+    ViewBag.Title = "Editar Loja";
+
+    <style>
+        #example_length {
+            display: none !important;
+        }
+
+        .dataTables_filter {
+            display: none !important;
+        }
+
+        .erro-alert-nome {
+            display: none;
+        }
+
+        .erro-alert {
+            display: block;
+        }
+
+        .dataTables_length {
+            display: none;
+        }
+    </style>
+}
+
+<h2>@ViewBag.Title</h2>
+
+<blockquote>
+    <p>@ViewBag.Title</p>
+    <small>Bem <cite title="Source Title">Vindo!!!</cite></small>
+</blockquote>
+<hr />
+@using (Html.BeginForm("edit", "operacao", FormMethod.Post, new { @class = "form-horizontal", id = "formEdit", name = "formEdit" }))
+{
+
+    <div class="form-horizontal">
+        @if (TempData["msgerror"] != null)
+        {
+            <div class="alert alert-dismissible alert-danger">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @TempData["msgerror"]
+            </div>
+        }
+        else if (TempData["msgsucesso"] != null)
+        {
+            <div class="alert alert-dismissible alert-success">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @TempData["msgsucesso"]
+            </div>
+        }
+        else if (TempData["msgalerta"] != null)
+        {
+            <div class="alert alert-dismissible alert-warning">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @TempData["msgalerta"]
+            </div>
+        }
+        else if (!ViewContext.ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-dismissible alert-warning">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @Html.ValidationSummary()
+            </div>
+        }
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.IdOperacao, new { @class = "col-lg-2 control-label", @for = "IdOperacao" })
+            <div class="col-lg-4">
+                @Html.TextBoxFor(x => x.IdOperacao, new { @class = "form-control", @required = "required", @placeholder = "IdOperacao" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.IdTipoOperacao, new { @class = "col-lg-2 control-label", @for = "IdTipoOperacao" })
+            <div class="col-lg-4">
+                @Html.TextBoxFor(x => x.IdTipoOperacao, new { @class = "form-control", @required = "required", @placeholder = "IdTipoOperacao" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.Ident, new { @class = "col-lg-2 control-label", @for = "Ident" })
+            <div class="col-lg-4">
+                @Html.TextBoxFor(x => x.Ident, new { @class = "form-control", @required = "required", @placeholder = "Ident" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.Operacao, new { @class = "col-lg-2 control-label", @for = "Operacao" })
+            <div class="col-lg-4">
+                @Html.TextBoxFor(x => x.Operacao, new { @class = "form-control", @required = "required", @placeholder = "Operacao" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.Ref, new { @class = "col-lg-2 control-label", @for = "Ref" })
+            <div class="col-lg-4">
+                @Html.TextBoxFor(x => x.Ref, new { @class = "form-control", @required = "required", @placeholder = "Ref" })
+            </div>
+        </div>
+
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.Tipo, new { @class = "col-lg-2 control-label", @for = "Tipo" })
+            <div class="col-lg-4">
+                @Html.TextBoxFor(x => x.Tipo, new { @class = "form-control", @required = "required", @placeholder = "Tipo" })
+            </div>
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(x => x.Turno, new { @class = "col-lg-2 control-label", @for = "Turno" })
+            <div class="col-lg-4">
+                @Html.TextBoxFor(x => x.Turno, new { @class = "form-control", @required = "required", @placeholder = "Turno" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.Valor, new { @class = "col-lg-2 control-label", @for = "Valor" })
+            <div class="col-lg-4">
+                @Html.TextBoxFor(x => x.Valor, new { @class = "form-control", @required = "required", @placeholder = "Valor" })
+            </div>
+        </div>
+        <div class="form-group">
+            @Html.LabelFor(x => x.Status, new { @class = "col-lg-2 control-label", @for = "Status" })
+            <div class="col-lg-4">
+                @Html.EditorFor(model => model.Status, new { @required = "required" })&ensp;Status
+            </div>
+        </div>
+        <div id="alerta-div" style="display: none;"></div>
+
+        <hr />
+        <div class="form-group">
+            <div class="col-lg-8 col-lg-offset-2">
+                <form method="post" action="@Url.Action("edit", "operacao")">
+ >
+                    <button type="submit" class="btn btn-success">Salvar</button>
+                    <a href="@Url.Action("index", "operacao")" cla class="btn btn-danger">Cancelar</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+}

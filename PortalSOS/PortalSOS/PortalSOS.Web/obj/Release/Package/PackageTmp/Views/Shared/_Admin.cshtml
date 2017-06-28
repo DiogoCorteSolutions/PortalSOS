@@ -1,0 +1,100 @@
+﻿@using PortalSOS.Web.Helpers
+
+@{
+    var menu = CustomHelper.ListarMenu;
+    var count = 0;
+}
+@if (menu != null)
+
+{
+    foreach (var item in menu)
+    {
+        <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">@item.Controller<span class="caret"></span></a>
+
+            @if (item.SubMenu != null && item.SubMenu.Count > 0)
+            {
+                <ul class="dropdown-menu" aria-labelledby="themes">
+                    @foreach (var items in item.SubMenu)
+                    {
+                        count++;
+                        <li><a href="@Url.Action(items.Action, item.Controller)">@items.Action</a></li>
+                        if (count >= 0 && (count < item.SubMenu.Count))
+                        {
+                            <li class="divider"></li>
+                        }
+                    }
+                </ul>
+            }
+
+        </li>
+    }
+}
+
+        @*<li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Contas a Pagar<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="themes">
+                    <li><a href="@Url.Action("create", "contasAPagar")">Cadastre de contas</a></li>
+                    <li class="divider"></li>
+                    <li><a href="@Url.Action("index", "contasAPagar")">Listda de Contas a Pagar</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Contas a Receber<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="themes">
+                    <li><a href="@Url.Action("Create", "ContasAReceber")">Cadastro de contas a receber</a></li>
+                    <li class="divider"></li>
+                    <li><a href="@Url.Action("index", "ContasAReceber")">Lista de contas a receber </a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Usuario <span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="themes">
+                    <li><a href="@Url.Action("Create", "Pessoa")">Cadastro de usuario</a></li>
+                    <li class="divider"></li>
+                    <li><a href="@Url.Action("index", "Pessoa")">Lista de usuario</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Acesso <span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="themes">
+                    <li><a href="@Url.Action("Create", "acesso")">Cadastro de Acesso</a></li>
+                    <li class="divider"></li>
+                    <li><a href="@Url.Action("index", "acesso")">Lista de Acesso</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Operação <span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="themes">
+                    <li><a href="@Url.Action("Create", "Operacao")">Cadastro de Operação</a></li>
+                    <li class="divider"></li>
+                    <li><a href="@Url.Action("index", "Operacao")">Lista de Operação</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Perfil<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="themes">
+                    <li><a href="@Url.Action("Create", "Perfil")">Cadastro de Perfil</a></li>
+                    <li class="divider"></li>
+                    <li><a href="@Url.Action("index", "Perfil")">Lista de Perfil</a></li>
+                </ul>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Configurações<span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="themes">
+                    <li><a href="@Url.Action("Create", "configuracao")">Cadastro de Configuracao</a></li>
+                    <li class="divider"></li>
+                    <li><a href="@Url.Action("index", "configuracao")">Lista de Configuracao</a></li>
+                </ul>
+            </li>*@
+
+
+        @*<li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#" id="themes">Movimentação <span class="caret"></span></a>
+                <ul class="dropdown-menu" aria-labelledby="themes">
+                    <li><a href="@Url.Action("Create", "movimentacao")">Cadastro de Movimentação</a></li>
+                    <li class="divider"></li>
+                    <li><a href="@Url.Action("index", "movimentacao")">Lista de Movimentação</a></li>
+                </ul>
+            </li>*@
+

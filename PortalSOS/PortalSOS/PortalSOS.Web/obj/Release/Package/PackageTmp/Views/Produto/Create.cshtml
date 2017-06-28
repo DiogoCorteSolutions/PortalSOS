@@ -1,0 +1,338 @@
+﻿@model PortalSOS.Web.Models.Produto_Models
+@{
+    ViewBag.Title = "Cadastro de Usuário";
+
+    <style>
+        #example_length {
+            display: none !important;
+        }
+
+        .dataTables_filter {
+            display: none !important;
+        }
+
+        .erro-alert-nome {
+            display: none;
+        }
+
+        .erro-alert {
+            display: block;
+        }
+
+        .dataTables_length {
+            display: none;
+        }
+    </style>
+}
+
+<h2>@ViewBag.Title</h2>
+
+<blockquote>
+    <p>@ViewBag.Title</p>
+    <small>Bem <cite title="Source Title">Vindo!!!</cite></small>
+</blockquote>
+<hr />
+@using (Html.BeginForm("create", "produto", FormMethod.Post, new { @class = "form-horizontal", id = "formCadastro", name = "formCadastro" }))
+{
+    if (TempData["msgerror"] != null)
+    {
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgerror"]
+        </div>
+    }
+    else if (TempData["msgsucesso"] != null)
+    {
+        <div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgsucesso"]
+        </div>
+    }
+    else if (TempData["msgalerta"] != null)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgalerta"]
+        </div>
+    }
+    else if (!ViewContext.ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @Html.ValidationSummary()
+        </div>
+    }
+
+
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>AlisetPorc *</label>
+            @Html.TextBoxFor(x => x.AlisetPorc, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Desccnm *</label>
+            @Html.TextBoxFor(x => x.desccncm, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Descrição *</label>
+            @Html.TextBoxFor(x => x.Descricao, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>Aliestval *</label>
+            @Html.TextBoxFor(x => x.Aliestval, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>AlifedPorc *</label>
+            @Html.TextBoxFor(x => x.AlifedPorc, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Alifedval *</label>
+            @Html.TextBoxFor(x => x.Alifedval, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Subtri *</label>
+            @Html.TextBoxFor(x => x.Subtri, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Dificims *</label>
+            @Html.TextBoxFor(x => x.Dificms, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>CustomImp *</label>
+            @Html.TextBoxFor(x => x.Custoimp, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Comissadi *</label>
+            @Html.TextBoxFor(x => x.Comissadi, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Tam *</label>
+            @Html.TextBoxFor(x => x.Tam, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Mgven *</label>
+            @Html.TextBoxFor(x => x.Mgven, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Varejo *</label>
+            @Html.TextBoxFor(x => x.Varejo, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Atacado *</label>
+            @Html.TextBoxFor(x => x.Atacado, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Mgvenajus *</label>
+            @Html.TextBoxFor(x => x.Mgvenajus, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Vavtot *</label>
+            @Html.TextBoxFor(x => x.Vavtot, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Imagem *</label>
+                @Html.TextBoxFor(x => x.Imagem, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Ucom *</label>
+                @Html.TextBoxFor(x => x.Ucom, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Ncm *</label>
+                @Html.TextBoxFor(x => x.Ncm, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Utrib *</label>
+                @Html.TextBoxFor(x => x.Utrib, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Ubal *</label>
+                @Html.TextBoxFor(x => x.Ubal, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Validade *</label>
+                @Html.TextBoxFor(x => x.Validade, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Ali *</label>
+                @Html.TextBoxFor(x => x.Ali, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Stat *</label>
+                @Html.TextBoxFor(x => x.Stat, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Cust *</label>
+                @Html.TextBoxFor(x => x.Cust, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Linha *</label>
+                @Html.TextBoxFor(x => x.Linha, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>ValidDias *</label>
+                @Html.TextBoxFor(x => x.ValidDias, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Lote *</label>
+                @Html.TextBoxFor(x => x.Lote, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Cor *</label>
+                @Html.TextBoxFor(x => x.Cor, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Tipo *</label>
+                @Html.TextBoxFor(x => x.Tipo, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Atual *</label>
+                @Html.TextBoxFor(x => x.Atual, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Minimo *</label>
+                @Html.TextBoxFor(x => x.Minimo, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Ideal *</label>
+                @Html.TextBoxFor(x => x.Ideial, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Bruto *</label>
+                @Html.TextBoxFor(x => x.Bruto, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Sub *</label>
+                @Html.TextBoxFor(x => x.Sub, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Gen *</label>
+                @Html.TextBoxFor(x => x.Gen, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>CodGen *</label>
+                @Html.TextBoxFor(x => x.CodGen, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Barras *</label>
+                @Html.TextBoxFor(x => x.Barras, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Ref *</label>
+                @Html.TextBoxFor(x => x.Ref, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Forn *</label>
+                @Html.TextBoxFor(x => x.Forn, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Cfop *</label>
+                @Html.TextBoxFor(x => x.Cfop, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Perfil *</label>
+                @Html.DropDownListFor(m => m.IdPerfil, Model.DdlPerfil, new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="form-group">
+                <label>Status *</label>
+                @Html.EditorFor(model => model.Status, new { @required = "required" })&ensp;
+            </div>
+        </div>
+        <div id="alerta-div" style="display: none;"></div>
+
+        <hr />
+
+        <div class="col-md-12">
+            <div class="form-group m-t-10">
+                <button id="btn-all-valid" name="btn-all-valid" type="submit" class="btn btn-success btn-custom waves-effect w-md m-b-5"><i class="fa fa-save"></i>&ensp;Salvar</button>
+                <a id="btn-all" name="btn-all" href="@Url.Action("index", "produto")" class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+            </div>
+        </div>
+}

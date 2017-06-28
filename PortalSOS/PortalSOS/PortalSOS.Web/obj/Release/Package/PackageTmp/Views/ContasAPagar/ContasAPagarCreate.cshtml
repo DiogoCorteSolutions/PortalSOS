@@ -1,0 +1,146 @@
+﻿@model PortalSOS.Web.Models.ContasAPagar_Models
+@{
+    ViewBag.Title = "Cadastro de contas a pagar";
+
+    <style>
+        #example_length {
+            display: none !important;
+        }
+
+        .dataTables_filter {
+            display: none !important;
+        }
+
+        .erro-alert-nome {
+            display: none;
+        }
+
+        .erro-alert {
+            display: block;
+        }
+
+        .dataTables_length {
+            display: none;
+            a;
+        }
+    </style>
+}
+
+<h2>@ViewBag.Title</h2>
+
+@*<blockquote>
+        <p>@ViewBag.Title</p>
+        <small>Bem <cite title="Source Title">Vindo!!!</cite></small>
+    </blockquote>*@
+<hr />
+@using (Html.BeginForm("ContasAPagarCreate", "contasAPagar", FormMethod.Post, new { @class = "form-horizontal", id = "formCadastro", name = "formCadastro" }))
+{
+    if (TempData["msgerror"] != null)
+    {
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgerror"]
+        </div>
+    }
+    else if (TempData["msgsucesso"] != null)
+    {
+        <div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgsucesso"]
+        </div>
+    }
+    else if (TempData["msgalerta"] != null)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgalerta"]
+        </div>
+    }
+    else if (!ViewContext.ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @Html.ValidationSummary()
+        </div>
+    }
+
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Boleto *</label>
+            @Html.TextBoxFor(x => x.Boleto, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Faturado *</label>
+            @Html.TextBoxFor(x => x.Faturado, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Fornecedor *</label>
+            @Html.TextBoxFor(x => x.Fornecedor, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Nota Fiscal *</label>
+            @Html.TextBoxFor(x => x.Nf, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>NFatura *</label>
+            @Html.TextBoxFor(x => x.Nfatura, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Nota *</label>
+            @Html.TextBoxFor(x => x.Nota, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Parcela *</label>
+            @Html.TextBoxFor(x => x.Parcela, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Identificacao *</label>
+            @Html.TextBoxFor(x => x.Identificacao, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>valor *</label>
+            @Html.TextBoxFor(x => x.valor, new { @class = "form-control", placeholder = "* campo obrigatório", required = "required" })
+            @*@Html.TextBoxFor(x => x.valor, new { @class = "form-control", @required = "requikred", @placeholder = "Valor", @onblur = "ValidarDinheiro(formCadastro.Valor);", @onchange = "MascaraDinheiro(formCadastro.Valor);", @maxlength = "11" })*@
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Loja *</label>
+            @Html.DropDownListFor(m => m.IdCliente, Model.DdlLoja, new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="form-group">
+            <label>Status *</label>
+            @Html.EditorFor(model => model.Status, new { @required = "required" })&ensp;
+        </div>
+    </div>
+    <div id="alerta-div" style="display: none;"></div>
+
+    <hr />
+
+    <div class="col-md-12">
+        <div class="form-group m-t-10">
+            <button id="btn-all-valid" name="btn-all-valid" type="submit" class="btn btn-success btn-custom waves-effect w-md m-b-5"><i class="fa fa-save"></i>&ensp;Salvar</button>
+            <a id="btn-all" name="btn-all" href="@Url.Action("ContasAPagarLista", "contasAPagar")" class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+        </div>
+    </div>
+}

@@ -1,0 +1,111 @@
+﻿@model PortalSOS.Web.Models.Loja_Models
+
+@{
+    ViewBag.Title = "Visualizar Loja";
+}
+<h2>@ViewBag.Title</h2>
+
+<blockquote>
+    <p>@ViewBag.Title</p>
+    <small>Bem <cite title="Source Title">Vindo!!!</cite></small>
+</blockquote>
+
+@using (Html.BeginForm("details", "loja", FormMethod.Get, new { @class = "form-horizontal" }))
+{
+    <fieldset>
+        <legend>Visualizar</legend>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>IdLoja *</label>
+                @Html.TextBoxFor(x => x.IdLoja, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Nome Fantasia *</label>
+                @Html.TextBoxFor(x => x.NomeFantasia, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>CNPJ *</label>
+                @Html.TextBoxFor(x => x.Cnpj, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Telefone *</label>
+                @Html.TextBoxFor(x => x.Telefone, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Endereco *</label>
+                @Html.TextBoxFor(x => x.Endereco, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Complemento *</label>
+                @Html.TextBoxFor(x => x.Complemento, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>CPF *</label>
+                @Html.TextBoxFor(x => x.CPF, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Numero *</label>
+                @Html.TextBoxFor(x => x.Numero, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>CEP *</label>
+                @Html.TextBoxFor(x => x.Cep, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>ResponsavelCadastro *</label>
+                @Html.TextBoxFor(x => x.ResponsavelCadastro, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Senha *</label>
+                @Html.TextBoxFor(x => x.Senha, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Perfil *</label>
+                @Html.TextBoxFor(x => x.PerfilLoja, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Status *</label>
+                @Html.TextBoxFor(x => x.Status, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Senha *</label>
+                @Html.TextBoxFor(x => x.Senha, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <hr>
+        <div class="col-md-12">
+            <div class="form-group m-t-10">
+                <a id="btn-all" name="btn-all" href="@Url.Action("index", "loja")" cl class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+            </div>
+        </div>
+    </fieldset>
+}

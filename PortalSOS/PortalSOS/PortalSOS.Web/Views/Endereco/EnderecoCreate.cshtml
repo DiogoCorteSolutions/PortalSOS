@@ -1,0 +1,148 @@
+﻿@model PortalSOS.Web.Models.Endereco_Models
+@{
+    ViewBag.Title = "Cadastro de Endereço";
+
+    <style>
+        #example_length {
+            display: none !important;
+        }
+
+        .dataTables_filter {
+            display: none !important;
+        }
+
+        .erro-alert-nome {
+            display: none;
+        }
+
+        .erro-alert {
+            display: block;
+        }
+
+        .dataTables_length {
+            display: none;
+        }
+    </style>
+}
+
+<h2>@ViewBag.Title</h2>
+
+@*<blockquote>
+        <p>@ViewBag.Title</p>
+        <small>Bem <cite title="Source Title">Vindo!!!</cite></small>
+    </blockquote>
+    <hr />*@
+@using (Html.BeginForm("enderecocreate", "endereco", FormMethod.Post, new { @class = "form-horizontal", id = "formCadastro", name = "formCadastro" }))
+{
+    if (TempData["msgerror"] != null)
+    {
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgerror"]
+        </div>
+    }
+    else if (TempData["msgsucesso"] != null)
+    {
+        <div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgsucesso"]
+        </div>
+    }
+    else if (TempData["msgalerta"] != null)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgalerta"]
+        </div>
+    }
+    else if (!ViewContext.ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @Html.ValidationSummary()
+        </div>
+    }
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>Bairro *</label>
+            @Html.TextBoxFor(x => x.Bairro, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>Tipo Endereço *</label>
+            @Html.DropDownListFor(m => m.DescricaoTipoEndereco, Model.DdlTipoEnderecoLista as IList<SelectListItem>, "Selecione", new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>UF *</label>
+            @Html.DropDownListFor(m => m.IdUf, Model.DdlUFLista as IList<SelectListItem>, "Selecione", new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>Complemento *</label>
+            @Html.TextBoxFor(x => x.Complemento, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>CEP *</label>
+            @Html.TextBoxFor(x => x.CEP, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>Cidade *</label>
+            @Html.TextBoxFor(x => x.Cidade, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>Endereço</label>
+            @Html.TextBoxFor(x => x.Endereco, new { @class = "form-control", placeholder = "opcional" })
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>Estado *</label>
+            @Html.TextBoxFor(x => x.Estado, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>Municipio *</label>
+            @Html.TextBoxFor(x => x.Municipio, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>Complemento</label>
+            @Html.TextBoxFor(x => x.Complemento, new { @class = "form-control", placeholder = "opcional" })
+        </div>
+    </div>
+    <div class="col-md-2">
+        <div class="form-group">
+            <label>Numero</label>
+            @Html.TextBoxFor(x => x.Numero, new { @class = "form-control", placeholder = "opcional" })
+        </div>
+    </div>
+    <div id="alerta-div" style="display: none;"></div>
+
+    <hr />
+
+    <div class="col-md-12">
+        <div class="form-group m-t-10">
+            <button id="btn-all-valid" name="btn-all-valid" type="submit" class="btn btn-success btn-custom waves-effect w-md m-b-5"><i class="fa fa-save"></i>&ensp;Salvar</button>
+            <a id="btn-all" name="btn-all" href="@Url.Action("enderecolista", "endereco")" class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+        </div>
+    </div>
+}
+
+
+
+
+

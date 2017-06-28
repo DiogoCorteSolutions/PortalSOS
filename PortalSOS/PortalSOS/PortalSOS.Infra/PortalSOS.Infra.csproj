@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6BA609BF-22A8-4559-A7F2-46A76AADE471}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PortalSOS.Infra</RootNamespace>
+    <AssemblyName>PortalSOS.Infra</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Contexto\DB_Contetxt.cs" />
+    <Compile Include="Contexto\DB_Contexto_Procedure.cs" />
+    <Compile Include="Models\Mapping\sosportalclienteMap.cs" />
+    <Compile Include="Models\Mapping\sosportalconfiguracaoclienteMap.cs" />
+    <Compile Include="Models\Mapping\sosportalcontatoMap.cs" />
+    <Compile Include="Models\Mapping\sosportalenderecoMap.cs" />
+    <Compile Include="Models\Mapping\sosportalufMap.cs" />
+    <Compile Include="Models\Mapping\sosportalconfiguracaoMap.cs" />
+    <Compile Include="Models\Mapping\sosportalconfiguracaopessoaMap.cs" />
+    <Compile Include="Models\Mapping\sosportalcontasapagarMap.cs" />
+    <Compile Include="Models\Mapping\sosportalcontasareceberMap.cs" />
+    <Compile Include="Models\Mapping\sosportallojaMap.cs" />
+    <Compile Include="Models\Mapping\sosportalmovimentacaoMap.cs" />
+    <Compile Include="Models\Mapping\sosportaloperacaoMap.cs" />
+    <Compile Include="Models\Mapping\sosportalperfilMap.cs" />
+    <Compile Include="Models\Mapping\sosportalpessoaMap.cs" />
+    <Compile Include="Models\Mapping\sosportalprodutoMap.cs" />
+    <Compile Include="Models\Mapping\sosportaltipooperacaoMap.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\PortalSOS.Dommain\PortalSOS.Dommain.csproj">
+      <Project>{bfab4d11-0135-4cd1-b8ab-f5633a81cee7}</Project>
+      <Name>PortalSOS.Dommain</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

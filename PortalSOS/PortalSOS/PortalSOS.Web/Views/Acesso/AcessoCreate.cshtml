@@ -1,0 +1,256 @@
+﻿@model PortalSOS.Web.Models.ConfiguracaoCliente_Models
+
+
+
+@*<style type="text/css" href="https://cdn.datatables.net/1.10.13/css/jquery.dataTables.min.css"></style>
+    <style type="text/css" href="https://cdn.datatables.net/buttons/1.2.4/css/buttons.dataTables.min.css"></style>
+    <style type="text/css" href="https://cdn.datatables.net/select/1.2.1/css/select.dataTables.min.css"></style>
+    <style type="text/css" href="https://editor.datatables.net/extensions/Editor/css/editor.dataTables.min.css"></style>*@
+@{
+    ViewBag.Title = "Cadastro de Acesso";
+
+    <style>
+        #example_length {
+            display: none !important;
+        }
+
+        .dataTables_filter {
+            display: none !important;
+        }
+
+        .erro-alert-nome {
+            display: none;
+        }
+
+        .erro-alert {
+            display: block;
+        }
+
+        .dataTables_length {
+            display: none;
+        }
+    </style>
+}
+
+<h2>@ViewBag.Title</h2>
+
+@*<blockquote>
+        <p>@ViewBag.Title</p>
+        <small>Bem <cite title="Source Title">Vindo!!!</cite></small>
+    </blockquote>*@
+<hr />
+@using (Html.BeginForm("acessocreate", "acesso", FormMethod.Post, new { @class = "form-horizontal", id = "formCadastro", name = "formCadastro" }))
+{
+    if (TempData["msgerror"] != null)
+    {
+        <div class="alert alert-dismissible alert-danger">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgerror"]
+        </div>
+    }
+    else if (TempData["msgsucesso"] != null)
+    {
+        <div class="alert alert-dismissible alert-success">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgsucesso"]
+        </div>
+    }
+    else if (TempData["msgalerta"] != null)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @TempData["msgalerta"]
+        </div>
+    }
+    else if (!ViewContext.ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-dismissible alert-warning">
+            <button type="button" class="close" data-dismiss="alert">×</button>
+            @Html.ValidationSummary()
+        </div>
+    }
+
+    <div class="row">
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Perfil *</label>
+                @Html.DropDownListFor(m => m.IdPerfil, Model.DdlPerfil, new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+                <label>Pagina de Endereço *</label>
+                @Html.DropDownListFor(m => m.IdConfiguracao, Model.DdlConfiguracaoListaController, "Selecione", new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+            </div>
+        </div>
+
+
+
+        <div class="col-md-4" id="divcheckpai" style="display: none;">
+            <div class="form-group">
+                <label>Pagina de Acesso </label>
+                <div class="form-control" id="divcheck" style="padding: 10px 0 120px 18px!important;">
+                </div>
+            </div>
+        </div>
+        <div id="alerta-div" style="display: none;"></div>
+
+        <hr />
+
+        @*<div class="col-md-12">
+                <table id="example" class="table table-hover table-bordered dt-responsive nowrap text-center" cellspacing="0" width="100%">
+                    <thead>
+                        <tr>
+                            <th style="text-align: center;">IdConfiguracaoCliente</th>
+                            <th style="text-align: center">idconfiguracao</th>
+                            <th style="text-align: center">idcliente</th>
+                            <th style="text-align: center">status</th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+
+            </div>*@
+        @*<table id="example" class="display" cellspacing="0" width="100%">
+                <thead>
+                    <tr>
+                        <th style="text-align: center;">perfil</th>
+                        <th style="text-align: center">idconfiguracao</th>
+                        <th style="text-align: center">idcliente</th>
+                        <th style="text-align: center">status</th>
+                        <th style="text-align: center;">ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in model())
+                    {
+                        <tr style="text-align: center;">
+                            <td>@item.idperfil</td>
+                            <td>@item.idconfiguracao</td>
+                            <td>@item.idcliente</td>
+                            <td>@item.status</td>
+                            <td>
+                                <a href="@url.action("edit", "acesso", new { id = item.idconfiguracaocliente })" data-toggle="tooltip" title="editar"><img width="20" src="~/content/img/edit.png" /></a>
+                                <a href="@url.action("visualizar", "acesso", new { id = item.idconfiguracaocliente })" data-toggle="tooltip" title="visualizar"><img width="20" src="~/content/img/view.png" /></a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>*@
+
+
+        <div class="col-md-12">
+            <div class="form-group m-t-10">
+                <button id="btn-all-valid" name="btn-all-valid" type="button" class="btn btn-success btn-custom waves-effect w-md m-b-5"><i class="fa fa-save"></i>&ensp;Salvar</button>
+                <a id="btn-all" name="btn-all" href="@Url.Action("ListaAcesso", "acesso")" class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+            </div>
+        </div>
+    </div>
+}
+
+<script src="~/Scripts/jquery-2.1.3.min.js"></script>
+@*<script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://cdn.datatables.net/1.10.13/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/1.2.4/js/dataTables.buttons.min.js"></script>
+    <script type="text/javascript" language="javascript" src="https://cdn.datatables.net/select/1.2.1/js/dataTables.select.min.js"></script>*@
+
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#example").DataTable();
+        $("#btn-all-valid").on('click', function () {
+
+            var viewIds = [];
+            $("input[name='ViewIds']:checked").each(function () {
+                viewIds.push(parseInt($(this).val()));
+            });
+
+            var model = {
+                IdConfiguracao: parseInt($("#IdConfiguracao").val()),
+                IdPerfil: parseInt($("#IdPerfil").val()),
+                ListIds: viewIds
+            };
+
+
+            $.ajax({
+                url: getHost("/acesso/acessocreate"),
+                type: "post",
+                contentType: "application/json; charset=utf-8",
+                data: JSON.stringify(model),
+                success: function (response) {
+                    if (response.success) {
+                        alert(response.result.message);
+
+                        //$(document).ready(function () {
+                        //    $("#example").DataTable({
+                        //        "processing": true,
+                        //        "serverSide": true,
+                        //        "paging": true,
+                        //        "serverSide": true,
+                        //        "filter": true,
+                        //        "orderMulti": true,
+                        //        "bDeferRender": true,
+                        //        "language": {
+                        //            "zeroRecords": "Nenhum registro encontrado"
+                        //        },
+                        //        "ajax": response.result.data,
+                        //        "columns": [
+                        //                { "data": "IdConfiguracaoCliente", "name": "IdConfiguracaoCliente", "autoWidth": true },
+                        //                { "data": "IdConfiguracao", "name": "IdConfiguracao", "autoWidth": true },
+                        //                { "data": "IdPerfil", "name": "IdPerfil", "autoWidth": true },
+                        //                { "data": "IdCliente", "name": "IdCliente", "autoWidth": true }
+                        //        ]
+                        //    });
+                        //});
+
+                    } else {
+                        alert(response.result.message);
+                    }
+
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.log(textStatus, errorThrown);
+                }
+            });
+        });
+
+        $("#IdConfiguracao").on('change', function () {
+
+            $.ajax({
+                url: getHost("/acesso/BuscarActions"),
+                type: "post",
+                data: { id: $(this).find('option:selected').val() },
+                success: function (response) {
+
+                    $('#divcheck').empty();
+
+                    $(response.result).each(function () {
+
+                        var item = this;
+
+                        var checkBox = "<input type='checkbox' name='ViewIds' value='" + item.IdConfiguracao + "'/>" + item.ControllerAction + "<br/>";
+                        $(checkBox).appendTo('#divcheck');
+                    });
+
+                    $('#divcheckpai').show();
+
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    $('#divcheckpai').hide();
+                    console.log(textStatus, errorThrown);
+                }
+            });
+
+        });
+    });
+
+</script>
+
+
+
+
+
+

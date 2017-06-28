@@ -1,0 +1,197 @@
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+C:\Users\dell\Desktop\cadastro cliente\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13032017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13032017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13032017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13032017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13032017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\13072017noite\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\homolog\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017 - Copia\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\hmolog22-03-2017 - Copia\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\Projetos_SqlServer-EmGeral\Projetos_C#-EmGeral\TfsPortalSOSSoftware\23032017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\workspace\branch\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\workspace\branch\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\workspace\branch\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\workspace\branch\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\workspace\branch\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\branch\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\workspace\branch\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\branch\SOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\workspace\branch\SOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\workspace\sosHomolog\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\workspace\sosHomolog\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\workspace\sosHomolog\SOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\SOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.csprojResolveAssemblyReference.cache
+E:\workspace\sosHomolog\SOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\SOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\tarde\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\workspace\sosHomolog\tarde\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\tarde\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\tarde\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\workspace\sosHomolog\tarde\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\tarde\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\workspace\sosHomolog\tarde\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\tarde\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\tarde\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\31032017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\workspace\sosHomolog\31032017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\31032017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\31032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\workspace\sosHomolog\31032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\31032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\workspace\sosHomolog\31032017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\31032017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.csprojResolveAssemblyReference.cache
+E:\workspace\sosHomolog\31032017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\31032017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\01042017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\workspace\sosHomolog\01042017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\01042017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\01042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\workspace\sosHomolog\01042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\01042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\workspace\sosHomolog\01042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\01042017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\01042017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\02042017 - Copia\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.csprojResolveAssemblyReference.cache
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\03042017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.csprojResolveAssemblyReference.cache
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\04042017\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.csprojResolveAssemblyReference.cache
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.csprojResolveAssemblyReference.cache
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\EALL\workspace\sosHomolog\05042017 - Copia\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+E:\workspace\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+E:\workspace\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+E:\workspace\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+E:\workspace\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+E:\workspace\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+E:\workspace\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+E:\workspace\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+E:\workspace\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+E:\workspace\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+D:\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+D:\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+D:\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+D:\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+D:\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+D:\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+D:\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+D:\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.csprojResolveAssemblyReference.cache
+D:\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+D:\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.csprojResolveAssemblyReference.cache
+C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb

@@ -1,0 +1,336 @@
+﻿@model PortalSOS.Web.Models.Cliente_Models
+@{
+    ViewBag.Title = "Editar Cliente";
+
+    <style>
+        #example_length {
+            display: none !important;
+        }
+
+        .dataTables_filter {
+            display: none !important;
+        }
+
+        .erro-alert-nome {
+            display: none;
+        }
+
+        .erro-alert {
+            display: block;
+        }
+
+        .dataTables_length {
+            display: none;
+        }
+    </style>
+}
+
+<h2>@ViewBag.Title</h2>
+
+<hr />
+@using (Html.BeginForm("clienteeditar", "cliente", FormMethod.Post, new { @class = "form-horizontal", id = "formEdit", name = "formEdit" }))
+{
+
+    <div class="form-horizontal">
+        @if (TempData["msgerror"] != null)
+        {
+            <div class="alert alert-dismissible alert-danger">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @TempData["msgerror"]
+            </div>
+        }
+        else if (TempData["msgsucesso"] != null)
+        {
+            <div class="alert alert-dismissible alert-success">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @TempData["msgsucesso"]
+            </div>
+        }
+        else if (TempData["msgalerta"] != null)
+        {
+            <div class="alert alert-dismissible alert-warning">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @TempData["msgalerta"]
+            </div>
+        }
+        else if (!ViewContext.ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-dismissible alert-warning">
+                <button type="button" class="close" data-dismiss="alert">×</button>
+                @Html.ValidationSummary()
+            </div>
+        }
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Codigo *</label>
+                @Html.TextBoxFor(x => x.IdCliente, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Codigo Loja *</label>
+                @Html.TextBoxFor(x => x.IdPessoaLoja, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Classificação *</label>
+                @Html.DropDownListFor(m => m.IdPerfil, Model.DdlPerfil, new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Tipo Pessoa *</label>
+                @Html.DropDownListFor(m => m.Tipo, Model.DdlTipoPessoa, new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>RazaoSocial *</label>
+                @Html.TextBoxFor(x => x.RazaoSocial, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Representante *</label>
+                @Html.TextBoxFor(x => x.Representante, new { @class = "form-control" })
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>CPF *</label>
+                @Html.TextBoxFor(x => x.CPF, new { @class = "form-control", @required = "required", @placeholder = "CPF", @onchange = "MascaraCPF(formCadastro.CPF);", @maxlength = "11" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>CNPJ *</label>
+                @Html.TextBoxFor(x => x.Cnpj, new { @class = "form-control", @required = "required", @placeholder = "CNPJ", @onchange = "MascaraCNPJ(formCadastro.Cnpj);", @maxlength = "14" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Senha *</label>
+                @Html.TextBoxFor(x => x.Senha, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Ultilizado *</label>
+                @Html.TextBoxFor(x => x.Ultilizado, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>CEP *</label>
+                @Html.TextBoxFor(x => x.CEP, new { @class = "form-control", @required = "required", @placeholder = "CEP", @onblur = "ValidaCep(formCadastro.CEP);", @onchange = "MascaraCep(formCadastro.CEP);", @maxlength = "8" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Ativacao *</label>
+                @Html.TextBoxFor(x => x.Ativacao, new { @class = "form-control", @required = "required", @placeholder = "Telefone", @onblur = "ValidarTelefone(formCadastro.Telefone);", @onchange = "MascaraTelefone(formCadastro.Telefone);", @maxlength = "10" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>CNAE *</label>
+                @Html.TextBoxFor(x => x.Cnae, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Codigo Produto *</label>
+                @Html.TextBoxFor(x => x.CodProduto, new { @class = "form-control", @required = "required", @placeholder = "Codigo Produto", @onchange = "mascaraInteiro(formCadastro.CodProduto);", @maxlength = "09" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>E-mail *</label>
+                @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Emitente *</label>
+                @Html.TextBoxFor(x => x.Emitente, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Incrição Estadual *</label>
+                @Html.TextBoxFor(x => x.InscricaoMunicipal, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Licença *</label>
+                @Html.TextBoxFor(x => x.Licenca, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Estadual *</label>
+                @Html.TextBoxFor(x => x.Estadual, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Modelo *</label>
+                @Html.TextBoxFor(x => x.Modelo, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Obs *</label>
+                @Html.TextBoxFor(x => x.Obs, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Pessoa *</label>
+                @Html.TextBoxFor(x => x.Pessoa, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Total *</label>
+                @Html.TextBoxFor(x => x.Total, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Bairro *</label>
+                @Html.TextBoxFor(x => x.Bairro, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Tipo Endereço *</label>
+                @Html.DropDownListFor(m => m.DescricaoTipoEndereco, Model.DdlTipoEnderecoLista as IList<SelectListItem>, "Selecione", new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Tipo Telefone *</label>
+                @Html.DropDownListFor(m => m.TipoTel, Model.DdlTipoEnderecoLista as IList<SelectListItem>, "Selecione", new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+            </div>
+        </div>
+
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Estado *</label>
+                @Html.TextBoxFor(x => x.Estado, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Cidade *</label>
+                @Html.TextBoxFor(x => x.Cidade, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Endereço *</label>
+                @Html.TextBoxFor(x => x.Endereco, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Complemento *</label>
+                @Html.TextBoxFor(x => x.Complemento, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Numero *</label>
+                @Html.TextBoxFor(x => x.Numero, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Produto *</label>
+                @Html.DropDownListFor(m => m.IdUf, Model.DdlUFLista, new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Municipio *</label>
+                @Html.TextBoxFor(x => x.Municipio, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Operadora *</label>
+                @Html.DropDownListFor(m => m.Operadora, Model.DdlOperadora, new { @class = "form-control", @required = "required", @placeholder = "Selecione" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Telefone *</label>
+                @Html.TextBoxFor(x => x.Telefone, new { @class = "form-control", @required = "required", @placeholder = "Telefone", @onblur = "ValidarTelefone(formCadastro.Telefone);", @onchange = "MascaraTelefone(formCadastro.Telefone);", @maxlength = "10" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Celular *</label>
+                @Html.TextBoxFor(x => x.Celular, new { @class = "form-control", @required = "required", @placeholder = "Celular", @onblur = "ValidarTelefone(formCadastro.Celular);", @onchange = "MascaraTelefone(formCadastro.Celular);", @maxlength = "10" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Ativação *</label>
+                @Html.TextBoxFor(x => x.Ativacao, new { @class = "form-control" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Razão Social *</label>
+                @Html.TextBoxFor(x => x.RazaoSocial, new { @class = "form-control" })
+            </div>
+        </div>
+
+        <div id="alerta-div" style="display: none;"></div>
+        <hr />
+
+        <div class="col-md-12">
+            <div class="form-group m-t-10">
+                <button id="btn-all-valid" name="btn-all-valid" type="submit" class="btn btn-success btn-custom waves-effect w-md m-b-5"><i class="fa fa-save"></i>&ensp;Salvar</button>
+                <a id="btn-all" name="btn-all" href="@Url.Action("clientelista", "cliente")" class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+            </div>
+        </div>
+    </div>
+
+
+}
+
+
+
+
+
+
+
+

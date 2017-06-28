@@ -1,0 +1,107 @@
+﻿@model PortalSOS.Web.Models.Operacao_Models
+
+@{
+    ViewBag.Title = "Visualizar Operações";
+}
+<h2>@ViewBag.Title</h2>
+
+<blockquote>
+    <p>@ViewBag.Title</p>
+    <small>Bem <cite title="Source Title">Vindo!!!</cite></small>
+</blockquote>
+
+@using (Html.BeginForm("details", "operacao", FormMethod.Get, new { @class = "form-horizontal" }))
+{
+    <fieldset>
+        <legend>Visualizar</legend>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>IdOperacao *</label>
+                @Html.TextBoxFor(x => x.IdOperacao, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>IdTipoOperacao *</label>
+                @Html.TextBoxFor(x => x.IdTipoOperacao, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Alteracao *</label>
+                @Html.TextBoxFor(x => x.Alteracao, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Caixa *</label>
+                @Html.TextBoxFor(x => x.Caixa, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Categoria *</label>
+                @Html.TextBoxFor(x => x.Categ, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Data *</label>
+                @Html.TextBoxFor(x => x.Data, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Indetificação *</label>
+                @Html.TextBoxFor(x => x.Ident, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Operação *</label>
+                @Html.TextBoxFor(x => x.Operacao, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Referencia *</label>
+                @Html.TextBoxFor(x => x.Ref, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Tipo *</label>
+                @Html.TextBoxFor(x => x.Tipo, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Turno *</label>
+                @Html.TextBoxFor(x => x.Turno, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Valor *</label>
+                @Html.TextBoxFor(x => x.Valor, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="form-group">
+                <label>Status *</label>
+                @Html.TextBoxFor(x => x.Status, new { @class = "form-control", @disabled = "disabled" })
+            </div>
+        </div>
+        <hr>
+        <div class="col-md-12">
+            <div class="form-group m-t-10">
+                <a id="btn-all" name="btn-all" href="@Url.Action("index", "operacao")" cl class="btn btn-warning btn-custom waves-effect w-md m-b-5"><i class="fa fa-reply-all"></i>&ensp;Voltar</a>
+
+            </div>
+        </div>
+    </fieldset>
+}
