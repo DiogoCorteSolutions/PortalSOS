@@ -195,3 +195,13 @@ C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.Sql
 C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.csprojResolveAssemblyReference.cache
 C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
 C:\workspace\PortalSOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll.config
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.dll
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\PortalSOS.Dommain.pdb
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.dll
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.dll
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.xml
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSOS.Dommain\bin\Debug\EntityFramework.SqlServer.xml
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.csprojResolveAssemblyReference.cache
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.dll
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSOS.Dommain\obj\Debug\PortalSOS.Dommain.pdb

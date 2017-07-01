@@ -25,3 +25,12 @@ C:\workspace\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Debug\N
 C:\workspace\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\obj\Debug\PortalSos.Infra.CrossCutting.Common.csprojResolveAssemblyReference.cache
 C:\workspace\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\obj\Debug\PortalSos.Infra.CrossCutting.Common.dll
 C:\workspace\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\obj\Debug\PortalSos.Infra.CrossCutting.Common.pdb
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Debug\PortalSos.Infra.CrossCutting.Common.dll
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Debug\PortalSos.Infra.CrossCutting.Common.pdb
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Debug\Correios.Net.dll
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Debug\Newtonsoft.Json.dll
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Debug\Correios.Net.pdb
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\bin\Debug\Newtonsoft.Json.xml
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\obj\Debug\PortalSos.Infra.CrossCutting.Common.csprojResolveAssemblyReference.cache
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\obj\Debug\PortalSos.Infra.CrossCutting.Common.dll
+D:\ProjectAllFRC\PortalSOS\PortalSOS\PortalSOS\PortalSos.Infra.CrossCutting.Common\obj\Debug\PortalSos.Infra.CrossCutting.Common.pdb

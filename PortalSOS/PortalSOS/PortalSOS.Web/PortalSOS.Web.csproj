@@ -177,6 +177,7 @@
     <Compile Include="Models\Produto_Models.cs" />
     <Compile Include="Models\ResultConfiguracaoModels.cs" />
     <Compile Include="Models\sosportalconfiguracaoModels.cs" />
+    <Compile Include="Models\TesteGit1.cs" />
     <Compile Include="Models\TipoOperacao_Models.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
